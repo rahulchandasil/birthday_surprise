@@ -18,6 +18,20 @@ export default function GlobalAudioPlayer() {
       { y: 0, opacity: 1, duration: 1, delay: 2, ease: "power2.out" }
     );
 
+    // Since this component is mounted AFTER the user clicks "Enter" on the intro screen,
+    // the browser already considers the document as "interacted with".
+    // We can try to play the audio immediately!
+    if (audioRef.current && !isPlaying) {
+      const playPromise = audioRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          setIsPlaying(true);
+        }).catch(e => {
+          console.log("Auto-play prevented:", e);
+        });
+      }
+    }
+
     const handleFirstInteraction = () => {
       if (audioRef.current && !isPlaying) {
         const playPromise = audioRef.current.play();
