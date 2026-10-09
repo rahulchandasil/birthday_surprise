@@ -86,10 +86,10 @@ export default function VideoScene() {
         {videoMemories.map((video, index) => (
           <div 
             key={video.id} 
-            className="video-panel w-full lg:w-screen h-[60vh] lg:h-screen flex flex-col lg:flex-row items-center justify-center p-6 lg:p-24 shrink-0 relative gap-8 lg:gap-16"
+            className="video-panel w-full lg:w-screen h-auto min-h-[80vh] py-12 lg:py-0 lg:h-screen flex flex-col lg:flex-row items-center justify-center p-6 lg:p-24 shrink-0 relative gap-8 lg:gap-16"
           >
             {/* Cinematic Video Player */}
-            <div className="w-full lg:w-2/3 max-w-5xl aspect-video bg-black rounded-2xl relative overflow-hidden group shadow-[0_0_50px_rgba(255,105,180,0.15)] ring-1 ring-pink-500/20 z-10 transition-transform duration-700 hover:scale-[1.02]">
+            <div className="w-full lg:w-2/3 max-w-5xl aspect-video bg-black rounded-2xl relative overflow-hidden group shadow-[0_0_50px_rgba(255,105,180,0.15)] ring-1 ring-pink-500/20 z-10 transition-transform duration-700 hover:scale-[1.02] shrink-0">
               <div className="absolute inset-0 bg-gradient-to-tr from-pink-500/10 to-transparent pointer-events-none z-10"></div>
               <video 
                 src={video.url}
