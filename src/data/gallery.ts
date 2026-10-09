@@ -21,7 +21,7 @@ export const galleryImages: GalleryImage[] = [
   { id: "gal-10", url: "/images/dilwali.jpeg", alt: "Diwali", caption: "Happy Diwali memory.", width: 800, height: 600 },
   { id: "gal-11", url: "/images/funny and most valuable memory.jpeg", alt: "Funny and valuable memory", caption: "Funny and most valuable memory.", width: 600, height: 800 },
   { id: "gal-12", url: "/images/jsut one cute pic.jpeg", alt: "Cute pic", width: 500, height: 500 },
-  { id: "gal-13", url: "/images/kuchu puchu.jpeg", alt: "Kuchu puchu", caption: "My kuchu puchu.", width: 600, height: 800, isFeatured: true },
+  { id: "gal-13", url: "/images/kuchu puchu.jpeg", alt: "My love", caption: "My beautiful love.", width: 600, height: 800, isFeatured: true },
   { id: "gal-14", url: "/images/most beautifull girl.jpeg", alt: "Most beautiful girl", width: 800, height: 1000 },
   { id: "gal-15", url: "/images/most cute.jpeg", alt: "Most cute", width: 600, height: 600 },
   { id: "gal-16", url: "/images/most sweet girl.jpeg", alt: "Most sweet girl", caption: "The sweetest girl.", width: 800, height: 800 },

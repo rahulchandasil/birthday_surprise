@@ -25,7 +25,7 @@ export default function PremiumLogo() {
         <div className="relative z-10 flex flex-col items-center justify-center">
           <Crown className="w-3 h-3 md:w-4 md:h-4 text-warm-ivory mb-0.5 drop-shadow-sm" />
           <span className="font-serif text-warm-ivory font-bold text-sm md:text-base tracking-wider drop-shadow-md leading-none">
-            K<span className="text-pink-200 mx-0.5 text-[10px] md:text-xs">&</span>P
+            M<span className="text-pink-200 mx-0.5 text-[10px] md:text-xs">&</span>L
           </span>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function PremiumLogo() {
       {/* Tooltip / Premium Text */}
       <div className="absolute left-full ml-4 whitespace-nowrap opacity-0 group-hover:opacity-100 transform translate-x-4 group-hover:translate-x-0 transition-all duration-500 pointer-events-none flex flex-col">
         <span className="text-pink-300 font-serif italic text-xs md:text-sm tracking-[0.2em] uppercase drop-shadow-[0_0_8px_rgba(244,114,182,0.8)]">
-          Kuchu Puchu
+          My Love
         </span>
         <span className="text-warm-ivory/60 text-[10px] tracking-widest font-light uppercase mt-0.5">
           Premium Edition

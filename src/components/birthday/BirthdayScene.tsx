@@ -154,7 +154,7 @@ export default function BirthdayScene() {
           ) : (
             <div ref={finalMessageRef} className="flex flex-col items-center opacity-0 w-full">
               <h2 className="text-5xl md:text-7xl lg:text-8xl font-serif text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-rose-400 to-pink-400 mb-6 drop-shadow-[0_0_20px_rgba(244,114,182,0.4)]">
-                Happy Birthday, <br className="md:hidden"/> Kuchu Puchu! 🎉
+                Happy Birthday, <br className="md:hidden"/> My Love! 🎉
               </h2>
               <p className="text-xl md:text-3xl font-light text-rose-100 mb-16 max-w-3xl leading-relaxed italic">
                 Here's to you, to us, and to a lifetime of beautiful memories together. I love you more than words could ever say. You are my greatest blessing.

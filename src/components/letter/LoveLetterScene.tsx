@@ -101,7 +101,7 @@ export default function LoveLetterScene() {
              <div className="relative z-10 h-full flex flex-col justify-between">
                 <div>
                   <h2 className="text-3xl md:text-5xl font-serif mb-6 md:mb-8 italic text-pink-600 drop-shadow-sm leading-tight">
-                    My Dearest Kuchu Puchu,
+                    My Dearest Love,
                   </h2>
                   
                   <div className="space-y-4 md:space-y-6 text-sm md:text-xl font-light leading-relaxed text-midnight/90 font-serif relative overflow-y-auto max-h-[250px] md:max-h-none pr-2 custom-scrollbar">

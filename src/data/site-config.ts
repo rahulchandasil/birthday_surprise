@@ -5,8 +5,8 @@ export const siteConfig = {
     him: "[Your Name]",
   },
   nicknames: {
-    hers: ["Cutie", "Sweetie", "Kuchu Puchu"],
-    his: ["Baby", "Kuchu Puchu"],
+    hers: ["Cutie", "Sweetie", "My Love"],
+    his: ["Baby", "My Love"],
   },
   dates: {
     birthday: "October 10, 2026",
