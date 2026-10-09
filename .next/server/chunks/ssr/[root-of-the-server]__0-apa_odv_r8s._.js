@@ -1,0 +1,3 @@
+module.exports=[[56642,(a,b,c)=>{b.exports=a.r(18622)},69229,(a,b,c)=>{b.exports=a.r(56642).vendored["react-rsc"].ReactJsxRuntime},26088,a=>{var b=a.i(69229);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{className:"antialiased bg-midnight text-warm-ivory",children:a})})},"metadata",0,{title:"For Diya, With Love",description:"A cinematic birthday memory website just for you."}])}],18622,(a,b,c)=>{b.exports=a.x("next/dist/compiled/next-server/app-page-turbo.runtime.prod.js",()=>require("next/dist/compiled/next-server/app-page-turbo.runtime.prod.js"))},15349,function(a){a.n(a.i(26088))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0-apa_odv_r8s._.js.map
